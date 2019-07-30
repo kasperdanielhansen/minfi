@@ -255,6 +255,8 @@ cpgCollapse <- function(object, what = c("Beta", "M"), maxGap = 500,
             dataSummary = dataSummary,
             na.rm = na.rm,
             verbose = verbose)
+    } else {
+      collapsed_cn <- NULL
     }
 
     # Construct output
